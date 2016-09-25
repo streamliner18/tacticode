@@ -1,0 +1,20 @@
+html
+	head
+		link(rel='stylesheet', href='codemirror.css')
+		link(rel='stylesheet', href='index.css')
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+		script(src='codemirror.js')
+		script(src='python.js')
+		script(src='index.js')
+		title tacticode
+	body
+		h3 Tacticode
+		p Stenotype for Programming. Press down 3 or more keys at a time to trigger a macro. Use "REC" to record these chords and "DEL" to delete them.
+		p A builtin macro is "IMP" for "import". Press I, M and P together to try it!
+		.tagfield
+			span.keymap
+			span.keystr
+			span.status
+		.hudfield
+		.main-editor
+			textarea#main-editor
